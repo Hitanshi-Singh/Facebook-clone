@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 4em;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            ;
+            color: rgb(23, 114, 240);
+            margin: 160px 243px 0px 285px;
+            font-weight: bolder;
+        }
+
+        .mainBox {
+
+            font-size: 1em;
+            border: none;
+            width: 386px;
+            height: 333px;
+            background-color: white;
+            /* border-spacing: 20px; */
+            border-radius: 12px;
+            padding: 8px;
+            float: right;
+            margin: -186px 256px;
+
+        }
+
+        input {
+            font-size: 16px;
+            margin: auto;
+            margin-left: 1px;
+            width: 317px;
+            height: 45px;
+            line-height: 16px;
+            border-radius: 8px;
+            border: 1px solid rgb(171, 169, 169);
+            padding: 0px 23px;
+        }
+
+        input:active {
+            border: rgb(56, 120, 247);
+            color: rgb(56, 120, 247);
+        }
+
+        .enter {
+            margin: 10px;
+        }
+
+        .btn {
+            text-align: center;
+            border: none;
+            border-radius: 7px;
+            padding: 12px 154px;
+            margin-left: 10px;
+            background-color: rgb(23, 114, 240);
+            color: white;
+            font-size: 19px;
+
+        }
+
+        .btn:hover {
+            cursor: pointer;
+        }
+
+        .btn2 {
+            margin-left: 103px;
+            width: 193px;
+            height: 48px;
+            padding: 0px;
+            border-radius: 7px;
+            border: none;
+            background-color: #42b72a;
+            font-size: 16px;
+            color: white;
+        }
+
+        .box {
+            margin-left: 125px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .box:visited {
+            color: rgb(36, 132, 248);
+        }
+
+        #hihi {
+            font-size: 29px;
+            margin: 8px 678px 8px 285px;
+            padding: 0px;
+        }
+
+        .theLastLine {
+            margin: 200px 0px 0px 913px;
+            font-size: 13px;
+        }
+
+        a.hey {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>facebook</h1>
+    <p id="hihi">Facebook helps you connect and share with the people in your life.</p>
+    <div class="mainBox">
+        <form action="backend.php">
+            <div class="enter">
+                <input type="text" name="myName" id="name" placeholder="Email address or phone number">
+
+            </div>
+            <div class="enter">
+                <input type="text" name="myPassword" id="password" placeholder="Password">
+
+            </div>
+            <button class="btn"><strong>Log in</strong></button>
+        </form>
+        <br><br>
+        <a class="box" href="">Forgotten password?</a>
+        <br><br>
+        <button class="btn2"><strong>Create New Account</strong></button>
+    </div>
+    <div class="theLastLine">
+        <span><a class="hey" href="">Create a Page</a></span>
+        <span class="hey"> for a celebrity, brand or business.</span>
+    </div>
+
+
+</body>
+
+</html>
